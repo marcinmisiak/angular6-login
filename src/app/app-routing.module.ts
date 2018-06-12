@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'zakladki', component: ZakladkiComponent},
   {
      path: 'logowanie', component: UserComponent,
-    children: [{ path: '', component: SignInComponent  }]
+    children: [{ path: '', component: SignInComponent  }] 
   },
  // { path : '', redirectTo:'/logowanie', pathMatch : 'full'}
 ];
